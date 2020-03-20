@@ -1,6 +1,6 @@
 package ua.lviv.iot.officeTools.model;
 
-public class AbstractOfficeTool {
+public abstract class AbstractOfficeTool {
 	private String producer;
 
 	private double priceInUAH;
