@@ -8,6 +8,26 @@ public abstract class AbstractOfficeTool {
 	private Colour colour;
 	private int weightInGrams;
 	private int warrantyInDays;
+	
+	public AbstractOfficeTool(String producer, double priceInUAH, Brand brand, Colour colour, int weightInGrams,
+			int warrantyInDays) {
+		super();
+		this.producer = producer;
+		this.priceInUAH = priceInUAH;
+		this.brand = brand;
+		this.colour = colour;
+		this.weightInGrams = weightInGrams;
+		this.warrantyInDays = warrantyInDays;
+	}
+	
+	
+
+	public AbstractOfficeTool(int weightInGrams) {
+		super();
+		this.weightInGrams = weightInGrams;
+	}
+
+
 
 	public String getProducer() {
 		return producer;

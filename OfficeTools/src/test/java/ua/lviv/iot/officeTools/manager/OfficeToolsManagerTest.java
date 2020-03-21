@@ -29,7 +29,7 @@ class OfficeToolsManagerTest extends BaseOfficeToolsManagerTest {
 		officeToolsManager.addOfficeTool();
 	}
 	
-	@Test
+/*	@Test
 	public void testSortAscending() {
 		
 		OfficeToolsManagerUtils.sortByWeightInGrams(officeTools,SortType.ASCENDING);
@@ -41,6 +41,6 @@ class OfficeToolsManagerTest extends BaseOfficeToolsManagerTest {
 		
 		OfficeToolsManagerUtils.sortByByPriceInUAH(officeTools,SortType.DESCENDING);
 	fail("Not yet implemented");	
-	}
+	} */
 
 }
