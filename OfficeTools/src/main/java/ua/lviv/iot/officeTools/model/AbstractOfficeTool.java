@@ -1,6 +1,6 @@
 package ua.lviv.iot.officeTools.model;
 
-public class AbstractOfficeTool {
+public abstract class AbstractOfficeTool {
 	private String producer;
 
 	private double priceInUAH;
@@ -8,6 +8,18 @@ public class AbstractOfficeTool {
 	private Colour colour;
 	private int weightInGrams;
 	private int warrantyInDays;
+	
+	public AbstractOfficeTool(String producer, double priceInUAH, Brand brand, Colour colour, int weightInGrams,
+			int warrantyInDays) {
+		super();
+		this.producer = producer;
+		this.priceInUAH = priceInUAH;
+		this.brand = brand;
+		this.colour = colour;
+		this.weightInGrams = weightInGrams;
+		this.warrantyInDays = warrantyInDays;
+	}
+	
 
 	public String getProducer() {
 		return producer;
